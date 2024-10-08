@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #C3FF93;
+    color: #FF70AB;
+}
+
+body {
+    background-color: #FFF5CD;
+    font-family: "Indie Flower", sans-serif;
+}
+
+header {
+    background-color:#FF70AB;
+    color: #FFF5CD;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Indie Flower", sans-serif;
+}
+
+main {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.primeira img {
+    width: 13rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5CD;
+    height: 25rem;
+    margin-bottom: 2rem;
+}
+
+.segunda img {
+    width: 13rem;
+    height: auto;
+    margin: 0 1rem;
+}
+
+.segunda p {
+    max-width: 20rem;
+    margin: 0 1rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.terceira img {
+    width: 13rem;
+    height: auto;
+    margin: 0.5rem;
+}
